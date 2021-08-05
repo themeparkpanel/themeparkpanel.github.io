@@ -1,0 +1,426 @@
+@import "root.css";
+
+.user-image, .user-header img {
+    border: 0 !important;
+    border-radius: 0 !important;
+}
+
+.navbar-nav>.user-menu>.dropdown-menu>li.user-header>p {
+    color: var(--color-text) !important;
+    font-weight: 600;
+}
+
+.logo-lg img, .logo-mini img {
+    filter: brightness(0) invert(1);
+}
+
+.bg-green {
+    background-color: var(--color-light) !important;
+}
+
+.small-box .inner {
+    min-height: 102px;
+}
+
+.small-box .icon {
+    color: var(--color-text) !important;
+    font-size: 65px;
+    margin-top: 10px;
+}
+
+.label.label-status {
+    line-height: unset !important;
+    font-size: 15px !important;
+}
+
+.main-footer span {
+    font-weight: 600;
+}
+
+.main-footer span a img {
+    height: 20px !important;
+}
+
+.main-header .navbar {
+    background-color: var(--color-light);
+}
+
+.main-header .navbar .nav > li > a {
+    color: #ffffff;
+}
+
+.main-header .navbar .nav > li > a:hover,
+.main-header .navbar .nav > li > a:active,
+.main-header .navbar .nav > li > a:focus,
+.main-header .navbar .nav .open > a,
+.main-header .navbar .nav .open > a:hover,
+.main-header .navbar .nav .open > a:focus,
+.main-header .navbar .nav > .active > a {
+    background: var(--color-dark);
+    color: var(--color-text);
+}
+
+.main-header .navbar .sidebar-toggle {
+    color: var(--color-text);
+}
+
+.main-header .navbar .sidebar-toggle:hover {
+    color: #f6f6f6;
+    background: var(--color-dark);
+}
+
+.main-header .navbar .sidebar-toggle {
+    color: var(--color-text);
+}
+
+.main-header .navbar .sidebar-toggle:hover {
+    background-color: var(--color-dark);
+}
+
+@media (max-width: 767px) {
+    .main-header .navbar .dropdown-menu li.divider {
+        background-color: var(--color-dark);
+    }
+
+    .main-header .navbar .dropdown-menu li a {
+        color: var(--color-text);
+    }
+
+    .main-header .navbar .dropdown-menu li a:hover {
+        background: var(--color-dark);
+    }
+}
+
+.main-header .logo {
+    background-color: var(--color-dark);
+    color: #ffffff;
+    border-bottom: 0 solid transparent;
+}
+
+.main-header .logo:hover {
+    background-color: var(--color-dark);
+}
+
+.main-header li.user-header {
+    background-color: var(--color-light);
+}
+
+.content-header {
+    background: transparent;
+}
+
+.wrapper,
+.main-sidebar,
+.left-side {
+    background-color: #222d32;
+}
+
+.user-panel > .info,
+.user-panel > .info > a {
+    color: #fff;
+}
+
+.sidebar-menu > li.header {
+    color: #4b646f;
+    background: #1a2226;
+}
+
+.sidebar-menu > li > a {
+    border-left: 3px solid transparent;
+}
+
+.sidebar-menu > li:hover > a,
+.sidebar-menu > li.active > a,
+.sidebar-menu > li.menu-open > a {
+    color: #ffffff;
+    background: #1e282c;
+}
+
+.sidebar-menu > li.active > a {
+    border-left-color: var(--color-light);
+}
+
+.sidebar-menu > li > .treeview-menu {
+    margin: 0 1px;
+    background: #2c3b41;
+}
+
+.sidebar a {
+    color: #b8c7ce;
+}
+
+.sidebar a:hover {
+    text-decoration: none;
+}
+
+.sidebar-menu .treeview-menu > li > a {
+    color: #8aa4af;
+}
+
+.sidebar-menu .treeview-menu > li.active > a,
+
+.sidebar-menu .treeview-menu > li > a:hover {
+    color: #fff;
+}
+
+.sidebar-form {
+    border-radius: 3px;
+    border: 1px solid #374850;
+    margin: 10px 10px;
+}
+
+.sidebar-form input[type="text"],
+.sidebar-form .btn {
+    box-shadow: none;
+    background-color: #374850;
+    border: 1px solid transparent;
+    height: 35px;
+}
+
+.sidebar-form input[type="text"] {
+    color: #666;
+    border-radius: 2px 0 0 2px;
+}
+
+.sidebar-form input[type="text"]:focus,
+.sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+    background-color: #fff;
+    color: #666;
+}
+
+.sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+    border-left-color: #fff;
+}
+
+.sidebar-form .btn {
+    color: #999;
+    border-top-left-radius: 0;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 0;
+}
+
+.form-control {
+    margin-bottom: 5px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+p {
+    word-break: break-word;
+}
+
+.box.box-primary {
+    border-top-color: var(--color-light) !important;
+}
+
+.btn.btn-primary {
+    border-color: var(--color-dark) !important;
+    background-color: var(--color-light) !important;
+    color: var(--color-text) !important;
+}
+
+.btn.btn-primary:hover {
+    border-color: var(--color-light) !important;
+    background-color: var(--color-dark) !important;
+    color: var(--color-text) !important;
+}
+
+.logo-mini img {
+    display: block;
+    width: 40px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.logo-lg img {
+    display: block;
+    height: 30px;
+    margin: auto;
+    margin-top: 10px !important;
+}
+
+.help-block {
+    font-size: 12px;
+    margin-top: -12px;
+    margin-bottom: -5px;
+}
+
+div.pull-left.image {
+    margin-top: 5px;
+}
+
+th.ip, td.ip {
+    width: 335px;
+}
+
+.role, .project-status {
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: transparent;
+    display: inline-block;
+    width: fit-content;
+}
+
+div.btn-group, div.btn-group .multiselect {
+    width: 100% !important;
+    margin-top: -2px;
+}
+
+div.form-group {
+    margin-top: -10px;
+}
+
+input.form-control {
+    border-top-right-radius: 3px !important;
+    border-bottom-right-radius: 3px !important;
+}
+
+.input-group .input-group-addon {
+    border-top-left-radius: 3px !important;
+    border-bottom-left-radius: 3px !important;
+}
+
+.bg-green-gradient {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, var(--color-dark)), color-stop(1,  var(--color-light))) !important;
+}
+
+i.no {
+    color: #e74c3c;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+i.yes {
+    color: #2ecc71;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.pagination li.active a {
+    background-color: var(--color-light);
+    border-color: transparent;
+}
+
+.panel-theme {
+    border-color: var(--color-dark);
+}
+
+.panel-theme>.panel-heading {
+    color: var(--color-text) !important;
+    background-color: var(--color-light) !important;
+    border-color: var(--color-dark) !important;
+}
+
+.panel-theme>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color: var(--color-dark) !important;
+}
+
+.panel-theme>.panel-footer+.panel-collapse>.panel-body {
+    border-bottom-color: var(--color-dark) !important;
+}
+
+.sceditor-container, textarea.editor {
+    resize: vertical !important;
+    width: 100%;
+    max-width: 100%;
+    min-height: 200px;
+    border-radius: 3px 3px 0 0;
+}
+
+.settings {
+    width: 100%;
+    display: block;
+    height: 30px;
+}
+
+.settings:not(:first-child) {
+    margin-top: 10px;
+}
+
+.settings > .settings-toggle {
+    width: 37px;
+    margin-right: 5px;
+    display: inline-block;
+    float: left;
+}
+
+.settings > .settings-text {
+    width: calc(100% - 65px);
+    height: 30px;
+    display: inline-block;
+    float: left;
+}
+
+.settings-text > p > .settings-info {
+    font-size: 15px;
+}
+
+.settings-text > p {
+    margin-top: -2px;
+    font-size: 20px;
+}
+
+.box.box-success {
+    border-top-color: var(--color-light);
+}
+
+/* Switcher */
+.switcher, .switcher * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.switcher {
+    position: relative;
+    display: block;
+    width: 37px;
+    height: 22px;
+}
+
+.switcher > input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.switcher > .switcher-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #FF5B5B;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    border-radius: 20px;
+}
+
+.switcher > .switcher-slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 2px;
+    bottom: 2px;
+    background-color: #fff;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    border-radius: 20px;
+}
+
+.switcher > input:checked + .switcher-slider {
+    background-color: #57E659;
+}
+
+.switcher > input:checked + .switcher-slider:before {
+    -webkit-transform: translateX(15px);
+    -ms-transform: translateX(15px);
+    transform: translateX(15px);
+}
